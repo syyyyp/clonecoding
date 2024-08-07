@@ -1,0 +1,473 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+a{
+  text-decoration: none;
+}
+
+
+header{
+  border: 1px solid black;
+  height: 240px;
+  width:100%;
+  margin:0;
+  padding:0;
+}
+
+.ad>a>img{/*광고*/
+  width: 100%;
+  height: 80px;
+  margin: 0;
+  padding: 0;
+}
+
+
+.header-logo{
+  display: flex;
+  border: 1px solid black;
+  height: 120px;
+  /* float: right; */
+  /* justify-content: space-between; */
+  margin: 0 350px;
+  width: 1000px;
+  /* margin: 40px; */
+}
+
+#cgv-logo>a>img{ /*cgv 이미지*/
+  width: 130px;
+  height: 90px;
+  margin: 10px;
+}
+
+.header-logo>span{/*deep dive space*/
+  font-size: 20px;
+  /* font-family: 'Noto Sans KR', 'CJONLYONENEW', sans-serif; */
+  margin-left: 0;
+  margin-top: 40px;
+  padding: 20px;
+
+}
+
+
+#header-contents{
+  padding-top: 65px;
+  padding-left: 200px;
+}
+
+
+.header-icon{/*로그인,회원가입..*/
+  display:flex;
+  list-style-type: none;
+  /* height: 30px; */
+  /* margin: 65px; */
+  text-align: right;
+}
+
+/*
+li{
+  text-align: end;
+  justify-content: end;
+}*/
+
+.header-icon>li>a{
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.nav-list{
+  /* border: 1px solid black; */
+  display:flex;
+  list-style-type: none;
+  /* height: 43px; */
+  width: 53%;
+  margin: 0 350px;
+  /* padding: 25px 0 0 25px */
+
+}
+
+.nav-list>li>a strong{
+  color: red;
+}
+
+li{
+  /* border: 1px solid black; */
+  width: 80px;
+  line-height: 25px;
+  text-align: justify;
+  font-weight: bold;
+  justify-content: start;
+  /* font-size: px; */
+}
+
+.nav-list>li>a{
+  text-decoration: none;
+  font-size: 15px;
+}
+
+a:hover{
+  color: black;
+}
+
+main{
+  width: 100%;
+  height: 2620px;
+  border: 1px solid black;
+  margin: 0;
+  padding:0;
+
+}
+
+.section1>img{ /*video-ad*/
+  width:100%;
+  height:480px;
+  border: 1px solid black;
+  margin: 0;
+  padding: 0;
+}
+
+.section2{
+  width: 100%;
+  height:470px;
+  border: 1px solid black;
+  margin: 0;
+  /* padding: 50px 30px 60px 30px; */
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 1), rgba(232, 232, 232, 0.37));
+
+}
+
+.movie-text{
+  text-align: center;
+  width: 1000px;
+  /* margin: 250px; */
+  /* border: 1px solid black; */
+  margin: 10px 350px;
+}
+
+
+#soon>h2{
+  margin-left: 30px;
+  margin-right: 650px;
+  opacity: 0.6;
+}
+
+#movie-button{
+  background-color: white;
+  border-radius: 10px;
+}
+
+a{
+  color: black;
+}
+
+.movie-poster{
+  width: 1000px;
+  height: 250px;
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+}
+
+.movie{
+  width: 170px;
+  height: 250px;
+  /* border: 1px solid black; */
+  margin-right: 20px;
+  border-radius: 10px;
+  background-size: 150px;
+}
+.movie>a>img{
+  width: 170px;
+  height: 250px;
+  /* border: 1px solid black; */
+  margin-right: 20px;
+  border-radius: 10px;
+  background-size: 150px;
+}
+
+.movie-name{
+  justify-content: space-around;
+  text-align: center;
+  /* border: 1px solid black; */
+  font-size: 18px;
+  line-height: 50px;
+}
+
+
+.section3{
+  width:1000px;
+  height: 400px;
+  border: 1px solid black;
+  margin: 0 350px;
+  padding: 0;
+}
+
+.event-name{
+  margin-bottom: 18px;
+  font-size: 18px;
+}
+
+.event-img{
+  width: 1000px;
+  height: 200px;
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+}
+
+.event{
+  width: 300px;
+  height: 200px;
+  /* border: 1px solid black; */
+  margin-right: 20px;
+  border-radius: 10px;
+}
+
+.event>a>img{
+  width: 300px;
+  height: 200px;
+  /* border: 1px solid black; */
+  margin-right: 20px;
+  border-radius: 10px;
+}
+
+.event-text{
+  text-align: start;
+  line-height: 25px;
+  margin-top: 10px;
+}
+
+.event-text>strong{
+  font-size: 18px;
+}
+
+.event-text>p{
+  font-size: 15px;
+  opacity: 0.6;
+}
+
+.section4{
+  width: 1000px;
+  height: 400px;
+  border: 1px solid black;
+  margin: 0 350px;
+  padding: 0;
+}
+
+.special{
+  display:flex;
+}
+
+.special-img{
+  width: 500px;
+  height: 240px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.special-text{
+  width: 400px;
+  height: 240px;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin-left: 40px;
+}
+
+
+.section5{
+  width: 1000px;
+  height: 400px;
+  border: 1px solid black;
+  margin: 0 350px;
+  padding: 0;
+}
+
+.notice-three{
+  width: 1000px;
+  height: 350px;
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+}
+
+.detail{
+  width: 280px;
+  height: 350px;
+  border: 1px solid black;
+  border-color: gainsboro;
+  margin-right: 20px;
+  border-radius: 10px;
+}
+
+#package-name{
+  width: 260px;
+  height:70px;
+  /* border:1px solid black; */
+  font-size: 20px;
+  margin-left: 20px;
+  font-weight: bold;
+  line-height: 60px;
+}
+
+#package{
+  width: 280px;
+  height: 90px;
+  /* border: 1px solid black; */
+}
+
+#package-name>img{
+  width: 100%;
+  height: 90px;
+}
+
+#movie-ticket{
+  width: 260px;
+  height:70px;
+  /* border:1px solid black; */
+  font-size: 20px;
+  margin-left: 20px;
+  font-weight: bold;
+  line-height: 60px;
+}
+
+#ticket{
+  width: 280px;
+  height: 90px;
+  /* border: 1px solid black; */
+}
+
+#gift-card{
+  width: 260px;
+  height:70px;
+  /* border:1px solid black; */
+  font-size: 20px;
+  margin-left: 20px;
+  font-weight: bold;
+  line-height: 60px;
+}
+
+#gift{
+  width: 280px;
+  height: 90px;
+  /* border: 1px solid black; */
+}
+
+.section6{ /*공지사항/앱다운로드*/
+  width: 1000px;
+  height: 450px;
+  border: 1px solid black;
+  margin: 0 350px;
+  padding: 0; 
+  display:flex;
+}
+
+.notice{
+  width: 500px;
+  height: 230px;
+  border: 1px solid black;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  margin: 50px 0 50px 120px;
+  /* margin-right: 0; */
+  border-color: gainsboro;
+  display: block;
+  /* padding-bottom: 20px; */
+  /* content: ''; */
+}
+
+#notice-detail>a{
+  font-size: 14px;
+  margin-left: 20px;
+  font-weight: 500;
+  
+}
+
+#notice-detail>a:hover{
+  text-decoration: underline;
+}
+
+.client>strong{
+  word-spacing: 10rem;
+  font-weight:bold;
+}
+
+.client-button>a{
+  background-color: #f6f6f6;
+  color:black;
+  /* padding: 7px 14px; */
+  display:inline-block;
+  padding: 7px 14px;
+  font-weight: 50;
+}
+
+.client>span{
+  text-align: center;
+}
+
+.app{
+  width: 230px;
+  height: 230px;
+  border: 1px solid black;
+  border-color: gainsboro;
+  /* border-radius: 10px; */
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  margin: 50px 50px 50px 0;
+  /* margin-left: 0; */
+  text-align: center;
+  /* line-height: 10px; */
+}
+
+.app>strong{
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 4em;
+}
+
+.app>span, .app>p{
+  font-size: 12px;
+  /* line-height: normal; */
+}
+
+
+
+
+#id>img{
+  /* position: relative; */
+  /* margin: 20px 0 20px 0; */
+  vertical-align: middle;
+}
+
+.movie-ad>a>img{
+  width: 200px;
+  height: 230px;
+  border: 1px solid black;
+  margin:50px 130px 50px 2px;
+  border-radius: 10px;
+  border-color: gainsboro;
+}
+
+/* .movie-ad>a>img{
+  width: 100%;
+  height: 230px;
+  margin: 0;
+  padding: 0;
+} */
+
+
+.movie-text{
+  display:flex;
+  column-width: 30px;
+}
+
+footer{
+  width: 100%;
+  height: 450px;
+  border: 1px solid black;
+  background-color: #f8f8f8;
+}
+
